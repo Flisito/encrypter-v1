@@ -11,7 +11,7 @@ while True:
     if opcion == "1":
         mensaje = input("Ingrese el mensaje a encriptar: ")
         llave = encryter.generadorllave(mensaje)
-        print("Su llave para desencriptar en la siguiente: " + str(llave))
+        print("Su llave para desencriptar: " + str(llave))
         mensaje_encriptado = encryter.encriptar(mensaje, llave)
         print("Mensaje encriptado: ", mensaje_encriptado)
 
